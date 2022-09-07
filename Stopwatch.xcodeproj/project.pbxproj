@@ -16,6 +16,8 @@
 		16CDB25A28C921EB00ACE8B9 /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CDB25928C921EB00ACE8B9 /* StopwatchTests.swift */; };
 		16CDB26428C921EB00ACE8B9 /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CDB26328C921EB00ACE8B9 /* StopwatchUITests.swift */; };
 		16CDB26628C921EB00ACE8B9 /* StopwatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CDB26528C921EB00ACE8B9 /* StopwatchUITestsLaunchTests.swift */; };
+		16CDB27328C93C8200ACE8B9 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CDB27228C93C8200ACE8B9 /* Stopwatch.swift */; };
+		16CDB27528C93E9800ACE8B9 /* luke-mummert-7xuhyDnVFu4-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16CDB27428C93E9800ACE8B9 /* luke-mummert-7xuhyDnVFu4-unsplash.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		16CDB25F28C921EB00ACE8B9 /* StopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16CDB26328C921EB00ACE8B9 /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		16CDB26528C921EB00ACE8B9 /* StopwatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		16CDB27228C93C8200ACE8B9 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		16CDB27428C93E9800ACE8B9 /* luke-mummert-7xuhyDnVFu4-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "luke-mummert-7xuhyDnVFu4-unsplash.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 		16CDB24128C921E600ACE8B9 /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
+				16CDB27428C93E9800ACE8B9 /* luke-mummert-7xuhyDnVFu4-unsplash.jpg */,
 				16CDB24228C921E600ACE8B9 /* AppDelegate.swift */,
 				16CDB24428C921E600ACE8B9 /* SceneDelegate.swift */,
 				16CDB24628C921E600ACE8B9 /* ViewController.swift */,
 				16CDB24828C921E600ACE8B9 /* Main.storyboard */,
+				16CDB27228C93C8200ACE8B9 /* Stopwatch.swift */,
 				16CDB24B28C921EA00ACE8B9 /* Assets.xcassets */,
 				16CDB24D28C921EA00ACE8B9 /* LaunchScreen.storyboard */,
 				16CDB25028C921EA00ACE8B9 /* Info.plist */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16CDB24F28C921EA00ACE8B9 /* LaunchScreen.storyboard in Resources */,
+				16CDB27528C93E9800ACE8B9 /* luke-mummert-7xuhyDnVFu4-unsplash.jpg in Resources */,
 				16CDB24C28C921EA00ACE8B9 /* Assets.xcassets in Resources */,
 				16CDB24A28C921E600ACE8B9 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 				16CDB24728C921E600ACE8B9 /* ViewController.swift in Sources */,
 				16CDB24328C921E600ACE8B9 /* AppDelegate.swift in Sources */,
 				16CDB24528C921E600ACE8B9 /* SceneDelegate.swift in Sources */,
+				16CDB27328C93C8200ACE8B9 /* Stopwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
