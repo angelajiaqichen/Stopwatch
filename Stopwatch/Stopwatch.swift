@@ -25,7 +25,7 @@ class Stopwatch {
     // return the formatted string...
     let diffMinutes = Int(elapsedTime / 60)
     let diffSeconds = Double(elapsedTime) - Double(diffMinutes * 60)
-    let displayedTime = String(diffMinutes) + ":" + String(format: "%.1f", -diffSeconds)
+    let displayedTime = String(format: "%02d", diffMinutes) + ":" + String(format: "%04.1f", diffSeconds)
     return displayedTime
   }
   
